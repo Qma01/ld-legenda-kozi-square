@@ -1,4 +1,11 @@
 <template>
+  <div>
+      <Head>
+        <Title>LD Legenda Kozi Square Apartment Kuching Rent | LD Legenda @ Kozi Square for Sale & Rent</Title>
+        <Meta name="description" :content='"Discover a variety of rental listings. Find your ideal rental property with our help."' />
+      </Head>
+    </div>
+
   <div class="max-w-4xl px-4 mx-auto space-y-12 divide-y">
     <ul>
       <!-- Rent -->

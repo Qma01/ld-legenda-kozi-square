@@ -3,7 +3,7 @@
   <div>
       <Head>
         <Title>Getting To LD Legenda Kozi Square Apartment Kuching | LD Legenda @ Kozi Square for Sale & Rent</Title>
-        <Meta name="description" :content='"Contact us for more info"' />
+        <Meta name="description" :content='"Plan your visit to our property effortlessly. Find directions, transportation details, and travel tips to reach us hassle-free."' />
       </Head>
     </div>
     <div class="py-2 select-none bg-gradient-to-b from-theme-200 to-theme-200 ">

@@ -3,7 +3,7 @@
     <div>
       <Head>
         <Title>Contact LD Legenda Kozi Square Apartment Kuching | LD Legenda @ Kozi Square for Sale & Rent</Title>
-        <Meta name="description" :content='"Contact us for more info"' />
+        <Meta name="description" :content='"Reach out to us for inquiries and assistance. Our dedicated team is here to provide you with the information you need. Contact us today."' />
       </Head>
     </div>
 
