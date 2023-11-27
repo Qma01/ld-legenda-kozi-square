@@ -4,6 +4,7 @@
         <Title>LD Legenda Kozi Square Apartment Kuching Amenities & Facilities | LD Legenda @ Kozi Square for Sale & Rent</Title>
         <Meta name="description" :content='"Contact us for more info"' />
       </Head>
+
     </div>
     <div class="max-w-6xl px-4 mx-auto space-y-12 divide-y">
     <!-- Facilities  -->
@@ -53,6 +54,22 @@
 
 <script>
 export default {
+  mounted() {
+    // Load Google Analytics script
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JS59WSZ932';
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      // Initialize Google Analytics after script has loaded
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JS59WSZ932');
+    };
+  },
+
   data() {
     return {
       FacilitiesLF10: [

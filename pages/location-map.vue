@@ -1985,6 +1985,22 @@
 
 <script>
 export default {
+  mounted() {
+    // Load Google Analytics script
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JS59WSZ932';
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      // Initialize Google Analytics after script has loaded
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JS59WSZ932');
+    };
+  },
+
   data() {
     return {
       mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.3752225324693!2d110.3382249758545!3d1.5410688609295304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba79cd97b6e3d%3A0xf284443fc6ff31bd!2sKozi%20Square%20Kuching!5e0!3m2!1sen!2smy!4v1694071027685!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'

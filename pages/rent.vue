@@ -1811,6 +1811,26 @@
         </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    // Load Google Analytics script
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-JS59WSZ932';
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      // Initialize Google Analytics after script has loaded
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JS59WSZ932');
+    };
+  },
+};
+</script>
+
 <style scoped>
   /* Add or modify any additional styles as needed */
   .image-text-container {
