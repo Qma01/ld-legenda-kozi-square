@@ -1,10 +1,16 @@
-
 <template>
-  <div class="max-w-6xl px-4 mx-auto space-y-12 divide-y">
+  <div>
+      <Head>
+        <Title>LD Legenda Kozi Square Apartment Kuching Sale | LD Legenda @ Kozi Square for Sale & Rent</Title>
+        <Meta name="description" :content='"Browse through a diverse selection of properties for sale. From luxury homes to budget-friendly options, we have something for everyone."' />
+      </Head>
+    </div>
+
+<div class="max-w-6xl px-4 mx-auto space-y-12 divide-y">
         <!--Rent-->
         <section >
           <div class="space-y-4">
-          <h3 class="text-xl font-semibold sm:text-2xl">Rent </h3>
+          <h3 class="text-xl font-semibold sm:text-2xl">Sale</h3>
           <div class="max-w-4xl py-6 mx-auto px-6 space-y-6">
             <div class="grid-container">
             <!-- IMAGE 1 Image and text in the same container -->

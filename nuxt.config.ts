@@ -35,5 +35,12 @@ export default defineNuxtConfig({
         emailUser: '',
     },
     */
+   app:{
+        head: {
+            meta: [
+            { hid: 'keywords', name: 'keywords', content: 'property, homes, real estate, for sale' }
+            ]
+        }
+   }
     
 })
